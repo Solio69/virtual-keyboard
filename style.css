@@ -1,0 +1,104 @@
+a:focus,
+div:focus,
+input:focus {
+    outline: none;
+}
+
+.container {
+    background: linear-gradient(to top, #91e0dfde, #085761);
+    padding: 10px;
+    border: 1px solid #333;
+    color: #ffffff;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard {
+    border: 1px solid rgb(41, 187, 197);
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(41, 187, 197);
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+
+}
+
+.key:hover {
+    color: #ffffff;
+    background: linear-gradient(to top, #77acddde, #0a4072);
+    cursor: pointer;
+}
+
+.active {
+    color: #ffffff;
+    background: linear-gradient(to top, #77acddde, #0a4072);
+}
+
+.backspasce {
+    width: auto;
+}
+
+.tab,
+.capslock,
+.enter {
+    width: 60px;
+}
+
+.lshift {
+    width: 90px;
+}
+
+.rshift {
+    width: 72px;
+}
+
+.lctrl {
+    width: 72px;
+}
+
+.space {
+    width: 248px;
+}
+
+.letter-key {
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.windows {
+    width: 28px;
+    padding-top: 5px;
+}
+
+.input {
+    text-align: center;
+    margin: 20px;
+}
+
+.input input {
+    width: 500px;
+    height: 30px;
+    border-color: #77acddde;
+    outline: none;
+}
